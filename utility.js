@@ -17,3 +17,8 @@ function getRandomAlphabet(){
     const alphabet=alphabets[index]
     return alphabet;
 }
+function setBackground(elementId)
+{
+    const element =document.getElementById(elementId)
+    element.classList.add('bg-orange-600')
+}
